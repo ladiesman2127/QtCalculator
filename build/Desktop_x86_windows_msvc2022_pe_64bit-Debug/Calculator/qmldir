@@ -1,0 +1,7 @@
+module Calculator
+typeinfo appCalculator.qmltypes
+prefer :/Calculator/
+Main 1.0 Main.qml
+DigitButton 1.0 DigitButton.qml
+ControlButton 1.0 ControlButton.qml
+

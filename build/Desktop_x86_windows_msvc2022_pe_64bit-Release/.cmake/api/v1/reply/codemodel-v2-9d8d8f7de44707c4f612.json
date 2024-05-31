@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-86d1471e6cc704b18695.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Calculator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-99bd0a2860c08a25bfa0.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-93939f4f21d35c257179.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-4e3bbc68003dcfde2409.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-2821295675791ba16ef5.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCalculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCalculator-Release-e054d7371d0579c68991.json",
+					"name" : "appCalculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCalculator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCalculator_autogen-Release-ba9a19e5825a8b0ec2b9.json",
+					"name" : "appCalculator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCalculator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCalculator_autogen_timestamp_deps-Release-63116d1560c2466595de.json",
+					"name" : "appCalculator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCalculator_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCalculator_qmlimportscan-Release-3152cbe76d40e87833ae.json",
+					"name" : "appCalculator_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCalculator_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCalculator_qmllint-Release-4993bf3a8f47c3c5fdc9.json",
+					"name" : "appCalculator_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCalculator_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCalculator_qmllint_json-Release-63d0f991574e2df941dd.json",
+					"name" : "appCalculator_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCalculator_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCalculator_qmllint_module-Release-c843aa35354fbbf04991.json",
+					"name" : "appCalculator_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCalculator_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCalculator_qmltyperegistration-Release-317de6e31402bb44911a.json",
+					"name" : "appCalculator_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCalculator_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCalculator_tooling-Release-02d0109dfaba5cdb2118.json",
+					"name" : "appCalculator_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Release",
+		"source" : "C:/Users/rekkl/rep/Calculator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

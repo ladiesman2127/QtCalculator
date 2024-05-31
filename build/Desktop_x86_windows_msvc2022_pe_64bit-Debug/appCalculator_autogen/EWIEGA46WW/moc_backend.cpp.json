@@ -1,0 +1,70 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "Backend",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "str",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "appendToQuery",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "appendBrackets",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "clearQuery",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Backend",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "query",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "queryChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "resultChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "backend.h",
+    "outputRevision": 68
+}

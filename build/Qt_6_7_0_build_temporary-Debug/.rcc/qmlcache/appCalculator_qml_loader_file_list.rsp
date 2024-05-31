@@ -1,0 +1,7 @@
+--resource
+C:/Users/rekkl/rep/Calculator/build/Qt_6_7_0_build_temporary-Debug/.rcc/qmake_Calculator.qrc
+--resource
+C:/Users/rekkl/rep/Calculator/build/Qt_6_7_0_build_temporary-Debug/.rcc/appCalculator_raw_qml_0.qrc
+/Calculator/Main.qml
+/Calculator/DigitButton.qml
+/Calculator/ControlButton.qml

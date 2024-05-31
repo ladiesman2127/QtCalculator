@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/Calculator/">
+    <file alias="Main.qml">C:/Users/rekkl/rep/Calculator/Main.qml</file>
+    <file alias="DigitButton.qml">C:/Users/rekkl/rep/Calculator/DigitButton.qml</file>
+    <file alias="ControlButton.qml">C:/Users/rekkl/rep/Calculator/ControlButton.qml</file>
+    <file alias="res/brackets.svg">C:/Users/rekkl/rep/Calculator/res/brackets.svg</file>
+    <file alias="res/division.svg">C:/Users/rekkl/rep/Calculator/res/division.svg</file>
+    <file alias="res/equal.svg">C:/Users/rekkl/rep/Calculator/res/equal.svg</file>
+    <file alias="res/minus.svg">C:/Users/rekkl/rep/Calculator/res/minus.svg</file>
+    <file alias="res/multiplication.svg">C:/Users/rekkl/rep/Calculator/res/multiplication.svg</file>
+    <file alias="res/percent.svg">C:/Users/rekkl/rep/Calculator/res/percent.svg</file>
+    <file alias="res/plus.svg">C:/Users/rekkl/rep/Calculator/res/plus.svg</file>
+    <file alias="res/power.svg">C:/Users/rekkl/rep/Calculator/res/power.svg</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,47 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "CalcButton",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "value",
+                    "notify": "onClicked",
+                    "read": "getValue",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "std::string",
+                    "user": false,
+                    "write": "setValue"
+                }
+            ],
+            "qualifiedClassName": "CalcButton",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "onClicked",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "calcbutton.h",
+    "outputRevision": 68
+}

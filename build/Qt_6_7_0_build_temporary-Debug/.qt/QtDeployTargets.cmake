@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appCalculator_FILE C:/Users/rekkl/rep/Calculator/build/Qt_6_7_0_build_temporary-Debug/appCalculator.exe)
+set(__QT_DEPLOY_TARGET_appCalculator_RUNTIME_DLLS C:/Qt/build/qtbase/bin/Qt6Quick.dll;C:/Qt/build/qtbase/bin/Qt6QmlModels.dll;C:/Qt/build/qtbase/bin/Qt6Qml.dll;C:/Qt/build/qtbase/bin/Qt6Network.dll;C:/Qt/build/qtbase/bin/Qt6OpenGL.dll;C:/Qt/build/qtbase/bin/Qt6Gui.dll;C:/Qt/build/qtbase/bin/Qt6Core.dll)

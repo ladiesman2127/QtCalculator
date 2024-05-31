@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/Calculator">
+    <file alias="qmldir">C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/Calculator/qmldir</file>
+  </qresource>
+</RCC>
+

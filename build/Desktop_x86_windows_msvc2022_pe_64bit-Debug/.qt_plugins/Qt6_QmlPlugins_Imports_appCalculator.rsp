@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/rekkl/rep/Calculator
+-cmake-output
+-output-file
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appCalculator.cmake
+-importPath
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/Calculator
+-importPath
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug
+-importPath
+C:/Qt/build/qtbase/./qml
+-qrcFiles
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.rcc/qmake_Calculator.qrc
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.rcc/appCalculator_raw_qml_0.qrc

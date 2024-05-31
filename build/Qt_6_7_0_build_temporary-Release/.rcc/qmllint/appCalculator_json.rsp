@@ -1,0 +1,14 @@
+--bare
+-I
+C:/Users/rekkl/rep/Calculator/build/Qt_6_7_0_build_temporary-Release
+-I
+C:/Qt/build/qtbase/./qml
+--resource
+C:/Users/rekkl/rep/Calculator/build/Qt_6_7_0_build_temporary-Release/.rcc/qmake_Calculator.qrc
+--resource
+C:/Users/rekkl/rep/Calculator/build/Qt_6_7_0_build_temporary-Release/.rcc/appCalculator_raw_qml_0.qrc
+C:/Users/rekkl/rep/Calculator/Main.qml
+C:/Users/rekkl/rep/Calculator/DigitButton.qml
+C:/Users/rekkl/rep/Calculator/ControlButton.qml
+--json
+C:/Users/rekkl/rep/Calculator/build/Qt_6_7_0_build_temporary-Release/appCalculator_qmllint.json

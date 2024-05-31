@@ -1,0 +1,10 @@
+-I
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Release
+-I
+C:/Qt/build/qtbase/./qml
+--resource
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/.rcc/qmake_Calculator.qrc
+--resource
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Release/.rcc/appCalculator_raw_qml_0.qrc
+--module
+Calculator

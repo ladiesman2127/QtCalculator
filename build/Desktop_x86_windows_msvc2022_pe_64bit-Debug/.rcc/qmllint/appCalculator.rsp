@@ -1,0 +1,12 @@
+--bare
+-I
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug
+-I
+C:/Qt/build/qtbase/./qml
+--resource
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.rcc/qmake_Calculator.qrc
+--resource
+C:/Users/rekkl/rep/Calculator/build/Desktop_x86_windows_msvc2022_pe_64bit-Debug/.rcc/appCalculator_raw_qml_0.qrc
+C:/Users/rekkl/rep/Calculator/Main.qml
+C:/Users/rekkl/rep/Calculator/DigitButton.qml
+C:/Users/rekkl/rep/Calculator/ControlButton.qml
