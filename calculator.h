@@ -10,7 +10,7 @@ class Calculator
 public:
     Calculator();
     static QString calculate(QString& infix);
-    static QString processExpression(QString& expression);
+    static QString processExpression(QString expression);
 private:
     inline const static QString INVALID_EXPRESSION = "INVALID EXPRESSION";
     static int precedence(QChar ch);

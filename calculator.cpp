@@ -16,25 +16,30 @@ QString Calculator::calculate(QString &infix)
             } else if(ch == '(') {
                 operatorsStack.push(ch);
             } else if(ch == ')') {
+                // qDebug() << operatorsStack << '\n';
+                // qDebug() << operandsStack << '\n';
                 while(!operatorsStack.isEmpty() && operatorsStack.top() != '(') {
-                    if(!performOperation(operatorsStack, operandsStack))
+                    if(operatorsStack.top() != '(') {
+                        if(!performOperation(operatorsStack, operandsStack))
                         return INVALID_EXPRESSION;
+                    }
                 }
                 if(operatorsStack.isEmpty()) return INVALID_EXPRESSION;
                 operatorsStack.pop();
             } else if(ch == '-') {
-                if(!curOperand.isEmpty()) {
+                if(i == 0 || infix[i - 1] == '(') {
+                    curOperand = "-";
+                } else if(!curOperand.isEmpty()) {
                     operandsStack.push(curOperand.toDouble());
                     curOperand.clear();
+                    operatorsStack.push(ch);
                 }
-                curOperand += "-";
-                operatorsStack.push('+');
             } else {
                 if(!curOperand.isEmpty()) {
                     operandsStack.push(curOperand.toDouble());
                     curOperand.clear();
                 }
-                while(!operatorsStack.isEmpty() && precedence(operatorsStack.top()) > precedence(ch) && ch != '^') {
+                while(!operatorsStack.isEmpty() && precedence(operatorsStack.top()) >= precedence(ch)) {
                     if(!performOperation(operatorsStack, operandsStack)) return  INVALID_EXPRESSION;
                 }
                 operatorsStack.push(ch);
@@ -47,8 +52,6 @@ QString Calculator::calculate(QString &infix)
         operandsStack.push(curOperand.toDouble());
         curOperand.clear();
     }
-    qDebug() << operatorsStack << '\n';
-    qDebug() << operandsStack << '\n';
     while(!operatorsStack.isEmpty()) {
         if(!performOperation(operatorsStack, operandsStack))
             return INVALID_EXPRESSION;
@@ -69,14 +72,16 @@ int Calculator::precedence(QChar ch)
         return -1;
 }
 
-QString Calculator::processExpression(QString &expression)
+QString Calculator::processExpression(QString expression)
 {
     if(expression.isEmpty()) return "";
     if(expression.size() == 1) return (expression[0].isDigit() || expression[0] == '(') ? expression : "";
     QChar lastCh = expression[expression.size() - 1];
     QChar prevLastCh = expression[expression.size() - 2];
+    // qDebug() << expression;
+    // qDebug() << prevLastCh << ' ' << lastCh;
     if(!lastCh.isDigit() && !prevLastCh.isDigit()) {
-        if((prevLastCh == '^' && lastCh == '-') || lastCh == '.') return expression;
+        if(((prevLastCh == '^' || prevLastCh == '(') && lastCh == '-') || lastCh == '.' || lastCh == '(') return expression;
         return expression.left(expression.size() - 2).append(lastCh);
     } else {
         return expression;
@@ -85,8 +90,7 @@ QString Calculator::processExpression(QString &expression)
 
 double Calculator::calculateOperation(QChar operation, double &o1, double &o2)
 {
-    qDebug() << "o1 " << o1 << " " << "o2" << o2 << '\n';
-    qDebug() << qPow(-2,6);
+    qDebug() << o1 << operation << o2 << '\n';
     double res = 0.0;
     if(operation == '+')
         res =  o1 + o2;
@@ -97,7 +101,7 @@ double Calculator::calculateOperation(QChar operation, double &o1, double &o2)
     else if(operation == '/')
         res = o1 / o2;
     else if(operation == '^')
-        res = std::pow(o1, o2);
+        res = qPow(o1, o2);
     qDebug() << "CalculateOperation" << res << '\n';
     return res;
 }

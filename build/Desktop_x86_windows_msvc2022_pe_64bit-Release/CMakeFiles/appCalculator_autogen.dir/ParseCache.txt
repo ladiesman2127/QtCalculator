@@ -723,7 +723,7 @@ C:/Users/rekkl/rep/Calculator/backend.h
  mdp:C:/Qt/qtdeclarative/src/qml/util/qqmlpropertymap.h
  mdp:C:/Qt/qtdeclarative/src/qmlintegration/qqmlintegration.h
  mdp:C:/Users/rekkl/rep/Calculator/calculator.h
-C:/Users/rekkl/rep/Calculator/main.cpp
 C:/Users/rekkl/rep/Calculator/calculator.h
+C:/Users/rekkl/rep/Calculator/main.cpp
 C:/Users/rekkl/rep/Calculator/backend.cpp
 C:/Users/rekkl/rep/Calculator/calculator.cpp
